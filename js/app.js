@@ -1,7 +1,7 @@
 var ImageGallery = {};
 var queryFirstImgs = function() {
     $.ajax({
-        url: "/json/imgGallery.json",
+        url: "../json/imgGallery.json",
     }).done(function(data) {
         ImageGallery = data;
         addImages(data.detail[0].imgsSource);
