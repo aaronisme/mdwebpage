@@ -1,0 +1,107 @@
+<!--
+HTML5. Use tags like <article>, <section>, etc.
+See: http://www.sitepoint.com/web-foundations/doctypes/
+-->
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <!--
+    Ask IE to behave like a modern browser
+    See: https://www.modern.ie/en-us/performance/how-to-use-x-ua-compatible
+    -->
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>ChenSiyu'Site</title>
+    <!--
+    Disables zooming on mobile devices.
+    -->
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <!--
+    Stylesheet that minimizes browser differences.
+    See: http://necolas.github.io/normalize.css/
+    -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!--
+    Our own stylesheet.
+    -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/img.css">
+    <link rel="stylesheet" href="css/font-awesome-4.4.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="main-container">
+        <header class="main-header">
+            <img src="img/md-header.jpg" alt="">
+            <p>大家好，我是陈思妤！</p>
+        </header>
+        <nav class="main-nav">
+            <ul class="no-style-list">
+                <li><a href="">me</a></li>
+                <li><a href="">Born</a></li>
+                <li><a href="">Photos</a></li>
+            </ul>
+        </nav>
+        <section class="info-section">
+            <div class="whoiam">
+                <header>
+                    <h2>me</h2>
+                    <p>I'm ChenSiyu</p>
+                </header>
+                <div class="whoiam-dad">
+                    <h3>Dad</h3>
+                    <p>我爸比是个程序猿，所以做了这个给我，虽然能写程序，但是审美，呵呵！</p>
+                </div>
+                <div class="whoiam-me">
+                    <h3>Me</h3>
+                    <p>我是陈思妤，刚出生的小宝贝，对了我是处女座的，哈哈，爸爸妈妈以后要注意了</p>
+                </div>
+                <div class="whoiam-mom">
+                    <h3>Mom</h3>
+                    <p>我妈咪，很温柔很美丽，感谢妈咪生下我，给予我生命。</p>
+                </div>
+            </div>
+        </section>
+        <section class="info-section">
+            <header>
+                <h2>Born</h2>
+            </header>
+            <div class="born-content">
+                <img src="img/hos-log.png" alt="">
+                <div class="born-info">
+                    <p>2015.9月我出生了！</p>
+                    <p>我现在已经快11个月了,是一个大大的宝宝了!</p>
+                </div>
+            </div>
+        </section>
+        <section class="info-section">
+            <header>
+                <h2>Photos</h2>
+            </header>
+            <div class="imgs-container">
+
+            </div>
+            <div class="imgs-pagination">
+            </div>
+        </section>
+        <footer class="main-footer">© 2016 <a href="http://www.aaronchen.cn">AaronChen</a></footer>
+    </div>
+    <div class="img-panel">
+        <section class="img-showbox-header">
+            <span class="gallery-indicator">1/12</span>
+            <div class="toolbox">
+                <i class="fa fa-times fa-lg"></i>
+            </div>
+        </section>
+        <section class="img-zoom-container">
+            <i class="fa fa-arrow-left icon-color left-aarow"></i>
+            <img src="" alt="">
+            <i class="fa fa-arrow-right icon-color right-aarow"></i>
+        </section>
+    </div>
+    <script src="js/lib/jquery.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
